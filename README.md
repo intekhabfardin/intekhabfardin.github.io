@@ -1,1 +1,5 @@
-# intekhabfardin.github.io
+#include<stdio.h>
+int main() {
+printf("Turja");
+return o;
+}
