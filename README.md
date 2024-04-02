@@ -31,7 +31,7 @@
 
     .social-icons {
       text-align: center;
-      margin-top: 20px;
+      margin-top: ৪০px;
     }
 
     .social-icons a {
@@ -53,7 +53,7 @@
     <p>Hello, world! This is a simple webpage hosted on GitHub Pages. Below are links to my social media profiles.</p>
     
     <div class="social-icons">
-      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
       <!-- Add more social media links as needed -->
       <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
