@@ -26,7 +26,7 @@
         <p>How people can get in touch with you.</p>
     </section>
 
-    <!-- Link to JavaScript for interactivity -->
+    
     <script src="script.js"></script>
 </body>
 </html>
