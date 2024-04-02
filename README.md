@@ -1,57 +1,177 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+========== HEADER ==========
+.nav__logo
+Intekhab <span>Fardin</span>
 
-  <!-- Native CSS Start -->
-  <link rel="stylesheet" href="/css/index.css">
-  <!-- Native CSS Start -->
-
-  <!-- Bootstrap CSS Start -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- Bootstrap CSS End -->
-
-  <!-- Icon Pack Start -->
-  <script src="https://kit.fontawesome.com/94b68a0c09.js" crossorigin="anonymous"></script>
-  <!-- Icon Pack End -->
-
-  <!-- Meta Start -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>I'm Himel</title>
-  <!-- Meta End -->
-</head>
-
-<body style="background-color:#f4f5ff;">
-
-  <main class="d-block mx-auto" style="max-width:400px;">
-
-    <div class="w-100">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid my-auto">
-          <p class="navbar-brand h1 mb-0">
-            I'm Himel
-          </p>
-          <a href="/">
-          <button class="btn btn-danger"><i class="fa-solid fa-home pe-2"></i>Home</button>
-          </a>
-        </div>
-      </nav>
-    </div>
-<div class="text-center"><i class="fa-solid fa-heart fa-6x text-danger d-block mx-auto my-3"></i></div>
-<p class="fs-2 text-center m-3">Thank you for showing love. Please <a href="https://m.me/himeeeelll" class="text-danger">click here</a> for further information about donation!</p>
-</main>
+.nav__link
+Home - About - Services - Projects - Contact
 
 
+========== HOME ==========
+.home__subtitle
+Hello, <span>I’m</span>
+
+.home__title
+Intekhab Fardin
+
+.home__education
+Marketing Student
+
+.home__description
+With knowledge in Business administration, 
+I offer the best projects resulting 
+in quality work.
+
+.button
+Let's Talk
+
+.home__social
+https://github.com/
+https://dribbble.com/
+https://www.linkedin.com/
+
+.home__social-icon (clip-path)
+polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
 
 
-<!-- Native JS Start -->
-<script src="js/index.js"></script>
-<!-- Native JS End -->
+========== ABOUT ==========
+.section__subtitle
+My <span>Intro</span>
 
-<!-- Bootstrap JS Start -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<!-- Bootstrap JS End -->
+.section__title
+About Me
 
-</body>
-</html>
+.about__description
+Frontend developer, I create web pages with 
+UI / UX user interface, I have years of 
+experience and many clients are happy with the 
+projects carried out.
+
+.button
+Contact Me
+
+
+========== SKILLS ==========
+.section__subtitle
+Favorite <span>Skills</span>
+
+.section__title
+My Skills
+
+.skills__description
+See fully what skills I have and perform, 
+to develop the projects for you.
+
+.button
+See Projects
+
+.skills__item
+HTML & CSS
+JavaScript
+Bootstrap
+React
+
+Git & GitHub
+Figma
+Sketch
+
+
+========== SERVICES ==========
+.section__subtitle
+My <span>Services
+
+.section__title
+What I Do
+
+.services__title .services__description
+Web Developer
+Development of custom web pages. 
+Using current technologies and 
+libraries of the labor field.
+
+UI/UX Designer
+I offer design of web interfaces and 
+mobile applications, design made in 
+figma, adobe xd and sketch.
+
+Graphic Design
+I make designs at the client's request, 
+banner design, posters, digital 
+designs among others.
+
+
+========== PROJECTS ==========
+.section__subtitle
+My <span>Jobs</span>
+
+.section__title
+Recent Projects
+
+.projects__subtitle .projects__title .projects__button
+Web
+Modern website
+View demo
+
+
+========== CONTACT ==========
+.section__subtitle
+Get In <span>Touch</span>
+
+.section__title
+Contact Me
+
+.contact__input (placeholder)
+Enter your name
+Enter your email
+Enter your message
+
+.button (type="submit")
+Send Message
+
+
+========== EMAIL JS CONTACT ==========
+Before proceeding, I recommend creating your EmailJs account(https://www.emailjs.com/)
+
+// serviceID - templateID - #form - publicKey
+
+	// Show sent message
+
+		Message sent successfully
+
+	// Remove message after five seconds
+
+	// Clear input fields
+
+	// Show error message
+
+		Message not sent (service error)
+
+
+* Copy this code into your (Email Template)
+
+Names: {{user_name}}
+
+Email: {{user_email}}
+
+Project: {{user_project}}
+
+Best wishes,
+EmailJS team
+
+
+========== FOOTER ==========
+.footer__title
+Intekhab <span>Fardin</span>
+
+.footer__education
+Front-end Developer  
+
+.footer__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; Copyright Bedimcode. All rights reserved
+
+.footer__social-icon (clip-path)
+polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
