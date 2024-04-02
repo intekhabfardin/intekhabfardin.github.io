@@ -1,91 +1,34 @@
-@import "compass/css3"
-@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto)
-=keyframes($animation-name)
-  @-webkit-keyframes #{$animation-name}
-    @content
-  @-moz-keyframes #{$animation-name}
-    @content
-  @keyframes #{$animation-name}
-    @content
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intekhab Fardin Turja's Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Intekhab Fardin Turja</h1>
+        <p>Marketing Student at Jahangirnagar University</p>
+    </header>
 
-body
-  background-color: #D4D9ED
-  height: 100vh
-  overflow: hidden
-  text-align: center
-  font-family: 'Roboto', sans-serif
-#canvas, .background-svg, .container-info
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  z-index: 1
-  @include transition(all 0.3s)
-.container-info
-  z-index: 2
-h1
-  font-weight: 300
-  font-size: 24px
-  letter-spacing: 2px
-  color: #fff
-  text-align: left
-  margin: 75px 37px 47px
-  .info
-    display: block
-    color: #9294AE
-    font-size: 16px
-    letter-spacing: 0px
-.box
-  text-align: right
-  padding: 0px 40px
-.box-item
-  display: inline-block
-  color: #fff
-  font-size: 30px
-  padding-right: 20px
-  @include transition(all 0.3s)
-.table
-  display: table
-  width: 100%
-  height: 100%
-.table-cell
-  display: table-cell
-  vertical-align: middle
-.container
-  position: relative
-  width: 400px
-  height: 300px
-  max-width: 100%
-  margin: 0 auto
-  &:before, &:after
-    content: ""
-    position: absolute
-    top: 0
-    left: 0
-    display: block
-    width: 600px
-    height: 100px
-    &:before
-    &:after
-#Triangle-1
-  -webkit-animation: box 42.5s infinite
-  animation: box 42.5s infinite
-#Triangle-2
-  -webkit-animation: box2 12.5s infinite
-  animation: box2 12.5s infinite
-  
-@keyframes box2
-  10%
-    @include rotate(1deg)
-  80%
-    @include rotate(-2deg)
-  
-@keyframes box
-  10%
-    @include rotate(-2deg)
-  80%
-    @include rotate(2deg)
-.box-item
-  &:hover
-    opacity: 0.6
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am Intekhab Fardin Turja, a dedicated marketing student at Jahangirnagar University, where I'm immersed in the intricate world of marketing. My academic path is fueled by an unwavering quest for knowledge, which I passionately link with practical applications, blending marketing theories with real-world scenarios.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>How people can get in touch with you.</p>
+    </section>
+
+    <footer>
+        <h3>Connect with me on social media</h3>
+        <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com/yourusername" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
